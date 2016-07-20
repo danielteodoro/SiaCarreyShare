@@ -20,9 +20,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESl-Pq-qAV" customClass="FBSDKLoginButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="99" y="28" width="202" height="30"/>
-                                </variation>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JKQ-E5-gwg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -92,14 +89,14 @@
                                 <exclude reference="DM4-99-oKT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Nsz-Or-q7B"/>
-                                <exclude reference="nIm-f2-Hzo"/>
-                                <exclude reference="h5R-rb-Ht9"/>
-                                <exclude reference="upW-nL-U8D"/>
-                                <exclude reference="RdA-7N-D2J"/>
-                                <exclude reference="SYe-Nh-Ku7"/>
                                 <exclude reference="38P-cV-A9W"/>
                                 <exclude reference="j0J-h7-rBy"/>
+                                <exclude reference="Nsz-Or-q7B"/>
+                                <exclude reference="nIm-f2-Hzo"/>
+                                <exclude reference="RdA-7N-D2J"/>
+                                <exclude reference="SYe-Nh-Ku7"/>
+                                <exclude reference="h5R-rb-Ht9"/>
+                                <exclude reference="upW-nL-U8D"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -110,14 +107,14 @@
                                 <include reference="DM4-99-oKT"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Nsz-Or-q7B"/>
-                                <include reference="nIm-f2-Hzo"/>
-                                <include reference="h5R-rb-Ht9"/>
-                                <include reference="upW-nL-U8D"/>
-                                <include reference="RdA-7N-D2J"/>
-                                <include reference="SYe-Nh-Ku7"/>
                                 <include reference="38P-cV-A9W"/>
                                 <include reference="j0J-h7-rBy"/>
+                                <include reference="Nsz-Or-q7B"/>
+                                <include reference="nIm-f2-Hzo"/>
+                                <include reference="RdA-7N-D2J"/>
+                                <include reference="SYe-Nh-Ku7"/>
+                                <include reference="h5R-rb-Ht9"/>
+                                <include reference="upW-nL-U8D"/>
                             </mask>
                         </variation>
                     </view>

@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     NSURL *urlscheme = [[NSURL alloc] initWithString:@"fbauth2://"];
     [[UIApplication sharedApplication] canOpenURL:urlscheme];
     
@@ -28,20 +29,32 @@
     NSData* data = [[NSData alloc] initWithContentsOfURL:aURL];
    self.imageView.image = [UIImage imageWithData:data];
     
+    self.textView.delegate = self;
+    
     //Texto
-    NSString *string = [NSString stringWithString:@"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"];
+    NSString *string = @"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s";
     self.textView.text = string;
 
     //montando share
-    FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
-    content.imageURL= aURL;
-    content.quote = string;
+    self.content = [[FBSDKShareLinkContent alloc] init];
+    self.content.imageURL= aURL;
+    self.content.quote = self.textView.text;
     FBSDKShareButton *shareButton = [[FBSDKShareButton alloc] init];
-    self.shareButton.shareContent = content;
-//    self.shareButton.enabled = YES;
-    shareButton.center = self.view.center;
-    [self.view addSubview:shareButton];
+    self.shareButton.shareContent = self.content;
 }
+
+-(void)textViewDidChange:(UITextView *)textView{
+    self.content.quote = self.textView.text;
+    self.shareButton.shareContent = self.content;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    if ([text isEqualToString:@"\n"]){
+        [textView resignFirstResponder];
+    }
+    return YES;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

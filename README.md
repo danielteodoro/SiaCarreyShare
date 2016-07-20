@@ -1,2 +1,2 @@
 # SiaCarreyShare
-Teste para Carreira Beauty. Abra o README
+Teste para Carreira Beauty. Abra o Leia

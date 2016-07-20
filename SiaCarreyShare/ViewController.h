@@ -10,11 +10,11 @@
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKShareKit/FBSDKShareKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextViewDelegate>
 
 @property (strong, nonatomic) IBOutlet FBSDKLoginButton *loginButton;
 @property (strong, nonatomic) IBOutlet FBSDKShareButton *shareButton;
-@property (strong, nonatomic) FBSDKSharePhotoContent *content;
+@property (strong, nonatomic) FBSDKShareLinkContent *content;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
