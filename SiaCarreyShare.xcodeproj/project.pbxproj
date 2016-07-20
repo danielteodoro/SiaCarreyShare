@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7D152A1D3F07BA00303D00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D15291D3F07BA00303D00 /* main.m */; };
+		BF7D152D1D3F07BA00303D00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D152C1D3F07BA00303D00 /* AppDelegate.m */; };
+		BF7D15301D3F07BA00303D00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D152F1D3F07BA00303D00 /* ViewController.m */; };
+		BF7D15331D3F07BA00303D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7D15311D3F07BA00303D00 /* Main.storyboard */; };
+		BF7D15351D3F07BA00303D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7D15341D3F07BA00303D00 /* Assets.xcassets */; };
+		BF7D15381D3F07BA00303D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7D15361D3F07BA00303D00 /* LaunchScreen.storyboard */; };
+		BF7D15431D3F07BB00303D00 /* SiaCarreyShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D15421D3F07BB00303D00 /* SiaCarreyShareTests.m */; };
+		BF7D154E1D3F07BB00303D00 /* SiaCarreyShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D154D1D3F07BB00303D00 /* SiaCarreyShareUITests.m */; };
+		BF7D155E1D3F07E100303D00 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7D155B1D3F07E100303D00 /* FBSDKCoreKit.framework */; };
+		BF7D155F1D3F07E100303D00 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7D155C1D3F07E100303D00 /* FBSDKLoginKit.framework */; };
+		BF7D15601D3F07E100303D00 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7D155D1D3F07E100303D00 /* FBSDKShareKit.framework */; };
+		BF7D15621D3F08BB00303D00 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7D15611D3F08BB00303D00 /* Bolts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF7D153F1D3F07BB00303D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7D151D1D3F07BA00303D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7D15241D3F07BA00303D00;
+			remoteInfo = SiaCarreyShare;
+		};
+		BF7D154A1D3F07BB00303D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7D151D1D3F07BA00303D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7D15241D3F07BA00303D00;
+			remoteInfo = SiaCarreyShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF7D15251D3F07BA00303D00 /* SiaCarreyShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiaCarreyShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7D15291D3F07BA00303D00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF7D152B1D3F07BA00303D00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF7D152C1D3F07BA00303D00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF7D152E1D3F07BA00303D00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF7D152F1D3F07BA00303D00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF7D15321D3F07BA00303D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF7D15341D3F07BA00303D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF7D15371D3F07BA00303D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF7D15391D3F07BA00303D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7D153E1D3F07BB00303D00 /* SiaCarreyShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiaCarreyShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7D15421D3F07BB00303D00 /* SiaCarreyShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiaCarreyShareTests.m; sourceTree = "<group>"; };
+		BF7D15441D3F07BB00303D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7D15491D3F07BB00303D00 /* SiaCarreyShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiaCarreyShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7D154D1D3F07BB00303D00 /* SiaCarreyShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiaCarreyShareUITests.m; sourceTree = "<group>"; };
+		BF7D154F1D3F07BB00303D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7D155B1D3F07E100303D00 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		BF7D155C1D3F07E100303D00 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		BF7D155D1D3F07E100303D00 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		BF7D15611D3F08BB00303D00 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7D15221D3F07BA00303D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7D155F1D3F07E100303D00 /* FBSDKLoginKit.framework in Frameworks */,
+				BF7D155E1D3F07E100303D00 /* FBSDKCoreKit.framework in Frameworks */,
+				BF7D15601D3F07E100303D00 /* FBSDKShareKit.framework in Frameworks */,
+				BF7D15621D3F08BB00303D00 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7D153B1D3F07BB00303D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7D15461D3F07BB00303D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF7D151C1D3F07BA00303D00 = {
+			isa = PBXGroup;
+			children = (
+				BF7D15271D3F07BA00303D00 /* SiaCarreyShare */,
+				BF7D15411D3F07BB00303D00 /* SiaCarreyShareTests */,
+				BF7D154C1D3F07BB00303D00 /* SiaCarreyShareUITests */,
+				BF7D15261D3F07BA00303D00 /* Products */,
+				BF7D155B1D3F07E100303D00 /* FBSDKCoreKit.framework */,
+				BF7D155C1D3F07E100303D00 /* FBSDKLoginKit.framework */,
+				BF7D155D1D3F07E100303D00 /* FBSDKShareKit.framework */,
+				BF7D15611D3F08BB00303D00 /* Bolts.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7D15261D3F07BA00303D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D15251D3F07BA00303D00 /* SiaCarreyShare.app */,
+				BF7D153E1D3F07BB00303D00 /* SiaCarreyShareTests.xctest */,
+				BF7D15491D3F07BB00303D00 /* SiaCarreyShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7D15271D3F07BA00303D00 /* SiaCarreyShare */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D152B1D3F07BA00303D00 /* AppDelegate.h */,
+				BF7D152C1D3F07BA00303D00 /* AppDelegate.m */,
+				BF7D152E1D3F07BA00303D00 /* ViewController.h */,
+				BF7D152F1D3F07BA00303D00 /* ViewController.m */,
+				BF7D15311D3F07BA00303D00 /* Main.storyboard */,
+				BF7D15341D3F07BA00303D00 /* Assets.xcassets */,
+				BF7D15361D3F07BA00303D00 /* LaunchScreen.storyboard */,
+				BF7D15391D3F07BA00303D00 /* Info.plist */,
+				BF7D15281D3F07BA00303D00 /* Supporting Files */,
+			);
+			path = SiaCarreyShare;
+			sourceTree = "<group>";
+		};
+		BF7D15281D3F07BA00303D00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D15291D3F07BA00303D00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF7D15411D3F07BB00303D00 /* SiaCarreyShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D15421D3F07BB00303D00 /* SiaCarreyShareTests.m */,
+				BF7D15441D3F07BB00303D00 /* Info.plist */,
+			);
+			path = SiaCarreyShareTests;
+			sourceTree = "<group>";
+		};
+		BF7D154C1D3F07BB00303D00 /* SiaCarreyShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D154D1D3F07BB00303D00 /* SiaCarreyShareUITests.m */,
+				BF7D154F1D3F07BB00303D00 /* Info.plist */,
+			);
+			path = SiaCarreyShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7D15241D3F07BA00303D00 /* SiaCarreyShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7D15521D3F07BB00303D00 /* Build configuration list for PBXNativeTarget "SiaCarreyShare" */;
+			buildPhases = (
+				BF7D15211D3F07BA00303D00 /* Sources */,
+				BF7D15221D3F07BA00303D00 /* Frameworks */,
+				BF7D15231D3F07BA00303D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiaCarreyShare;
+			productName = SiaCarreyShare;
+			productReference = BF7D15251D3F07BA00303D00 /* SiaCarreyShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF7D153D1D3F07BB00303D00 /* SiaCarreyShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7D15551D3F07BB00303D00 /* Build configuration list for PBXNativeTarget "SiaCarreyShareTests" */;
+			buildPhases = (
+				BF7D153A1D3F07BB00303D00 /* Sources */,
+				BF7D153B1D3F07BB00303D00 /* Frameworks */,
+				BF7D153C1D3F07BB00303D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7D15401D3F07BB00303D00 /* PBXTargetDependency */,
+			);
+			name = SiaCarreyShareTests;
+			productName = SiaCarreyShareTests;
+			productReference = BF7D153E1D3F07BB00303D00 /* SiaCarreyShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF7D15481D3F07BB00303D00 /* SiaCarreyShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7D15581D3F07BB00303D00 /* Build configuration list for PBXNativeTarget "SiaCarreyShareUITests" */;
+			buildPhases = (
+				BF7D15451D3F07BB00303D00 /* Sources */,
+				BF7D15461D3F07BB00303D00 /* Frameworks */,
+				BF7D15471D3F07BB00303D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7D154B1D3F07BB00303D00 /* PBXTargetDependency */,
+			);
+			name = SiaCarreyShareUITests;
+			productName = SiaCarreyShareUITests;
+			productReference = BF7D15491D3F07BB00303D00 /* SiaCarreyShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7D151D1D3F07BA00303D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Teodoro";
+				TargetAttributes = {
+					BF7D15241D3F07BA00303D00 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF7D153D1D3F07BB00303D00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF7D15241D3F07BA00303D00;
+					};
+					BF7D15481D3F07BB00303D00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF7D15241D3F07BA00303D00;
+					};
+				};
+			};
+			buildConfigurationList = BF7D15201D3F07BA00303D00 /* Build configuration list for PBXProject "SiaCarreyShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF7D151C1D3F07BA00303D00;
+			productRefGroup = BF7D15261D3F07BA00303D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7D15241D3F07BA00303D00 /* SiaCarreyShare */,
+				BF7D153D1D3F07BB00303D00 /* SiaCarreyShareTests */,
+				BF7D15481D3F07BB00303D00 /* SiaCarreyShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7D15231D3F07BA00303D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7D15381D3F07BA00303D00 /* LaunchScreen.storyboard in Resources */,
+				BF7D15351D3F07BA00303D00 /* Assets.xcassets in Resources */,
+				BF7D15331D3F07BA00303D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7D153C1D3F07BB00303D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7D15471D3F07BB00303D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7D15211D3F07BA00303D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7D15301D3F07BA00303D00 /* ViewController.m in Sources */,
+				BF7D152D1D3F07BA00303D00 /* AppDelegate.m in Sources */,
+				BF7D152A1D3F07BA00303D00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7D153A1D3F07BB00303D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7D15431D3F07BB00303D00 /* SiaCarreyShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7D15451D3F07BB00303D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7D154E1D3F07BB00303D00 /* SiaCarreyShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF7D15401D3F07BB00303D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7D15241D3F07BA00303D00 /* SiaCarreyShare */;
+			targetProxy = BF7D153F1D3F07BB00303D00 /* PBXContainerItemProxy */;
+		};
+		BF7D154B1D3F07BB00303D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7D15241D3F07BA00303D00 /* SiaCarreyShare */;
+			targetProxy = BF7D154A1D3F07BB00303D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF7D15311D3F07BA00303D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7D15321D3F07BA00303D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7D15361D3F07BA00303D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7D15371D3F07BA00303D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7D15501D3F07BB00303D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF7D15511D3F07BB00303D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF7D15531D3F07BB00303D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SiaCarreyShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanielTeodoro.SiaCarreyShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF7D15541D3F07BB00303D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SiaCarreyShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanielTeodoro.SiaCarreyShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF7D15561D3F07BB00303D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SiaCarreyShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanielTeodoro.SiaCarreyShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiaCarreyShare.app/SiaCarreyShare";
+			};
+			name = Debug;
+		};
+		BF7D15571D3F07BB00303D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SiaCarreyShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanielTeodoro.SiaCarreyShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiaCarreyShare.app/SiaCarreyShare";
+			};
+			name = Release;
+		};
+		BF7D15591D3F07BB00303D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SiaCarreyShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanielTeodoro.SiaCarreyShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SiaCarreyShare;
+			};
+			name = Debug;
+		};
+		BF7D155A1D3F07BB00303D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SiaCarreyShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanielTeodoro.SiaCarreyShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SiaCarreyShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7D15201D3F07BA00303D00 /* Build configuration list for PBXProject "SiaCarreyShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7D15501D3F07BB00303D00 /* Debug */,
+				BF7D15511D3F07BB00303D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7D15521D3F07BB00303D00 /* Build configuration list for PBXNativeTarget "SiaCarreyShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7D15531D3F07BB00303D00 /* Debug */,
+				BF7D15541D3F07BB00303D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF7D15551D3F07BB00303D00 /* Build configuration list for PBXNativeTarget "SiaCarreyShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7D15561D3F07BB00303D00 /* Debug */,
+				BF7D15571D3F07BB00303D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF7D15581D3F07BB00303D00 /* Build configuration list for PBXNativeTarget "SiaCarreyShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7D15591D3F07BB00303D00 /* Debug */,
+				BF7D155A1D3F07BB00303D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7D151D1D3F07BA00303D00 /* Project object */;
+}

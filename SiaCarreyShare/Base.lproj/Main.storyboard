@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESl-Pq-qAV" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="99" y="28" width="202" height="30"/>
+                                </variation>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JKQ-E5-gwg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="eYZ-eO-mQb"/>
+                                    <constraint firstAttribute="height" constant="128" id="sne-rC-cx8"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="eYZ-eO-mQb"/>
+                                        <exclude reference="sne-rC-cx8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="eYZ-eO-mQb"/>
+                                        <include reference="sne-rC-cx8"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gxd-1A-P6l">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="184" id="7EI-9v-q8b"/>
+                                    <constraint firstAttribute="width" constant="240" id="eDH-Fs-r5l"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7EI-9v-q8b"/>
+                                        <exclude reference="eDH-Fs-r5l"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="7EI-9v-q8b"/>
+                                        <include reference="eDH-Fs-r5l"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DM4-99-oKT" customClass="FBSDKShareButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DM4-99-oKT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="38P-cV-A9W"/>
+                            <constraint firstItem="ESl-Pq-qAV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Nsz-Or-q7B"/>
+                            <constraint firstItem="Gxd-1A-P6l" firstAttribute="centerX" secondItem="JKQ-E5-gwg" secondAttribute="centerX" id="RdA-7N-D2J"/>
+                            <constraint firstItem="Gxd-1A-P6l" firstAttribute="top" secondItem="JKQ-E5-gwg" secondAttribute="bottom" constant="8" id="SYe-Nh-Ku7"/>
+                            <constraint firstItem="JKQ-E5-gwg" firstAttribute="top" secondItem="ESl-Pq-qAV" secondAttribute="bottom" constant="8" id="h5R-rb-Ht9"/>
+                            <constraint firstItem="DM4-99-oKT" firstAttribute="top" secondItem="Gxd-1A-P6l" secondAttribute="bottom" constant="21" id="j0J-h7-rBy">
+                                <variation key="heightClass=regular-widthClass=compact" constant="148"/>
+                            </constraint>
+                            <constraint firstItem="ESl-Pq-qAV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nIm-f2-Hzo"/>
+                            <constraint firstItem="JKQ-E5-gwg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="upW-nL-U8D"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ESl-Pq-qAV"/>
+                                <exclude reference="JKQ-E5-gwg"/>
+                                <exclude reference="Gxd-1A-P6l"/>
+                                <exclude reference="DM4-99-oKT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Nsz-Or-q7B"/>
+                                <exclude reference="nIm-f2-Hzo"/>
+                                <exclude reference="h5R-rb-Ht9"/>
+                                <exclude reference="upW-nL-U8D"/>
+                                <exclude reference="RdA-7N-D2J"/>
+                                <exclude reference="SYe-Nh-Ku7"/>
+                                <exclude reference="38P-cV-A9W"/>
+                                <exclude reference="j0J-h7-rBy"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ESl-Pq-qAV"/>
+                                <include reference="JKQ-E5-gwg"/>
+                                <include reference="Gxd-1A-P6l"/>
+                                <include reference="DM4-99-oKT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Nsz-Or-q7B"/>
+                                <include reference="nIm-f2-Hzo"/>
+                                <include reference="h5R-rb-Ht9"/>
+                                <include reference="upW-nL-U8D"/>
+                                <include reference="RdA-7N-D2J"/>
+                                <include reference="SYe-Nh-Ku7"/>
+                                <include reference="38P-cV-A9W"/>
+                                <include reference="j0J-h7-rBy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="JKQ-E5-gwg" id="C3A-rU-mE5"/>
+                        <outlet property="loginButton" destination="ESl-Pq-qAV" id="4fe-Kz-sHn"/>
+                        <outlet property="shareButton" destination="DM4-99-oKT" id="G1L-cy-bjS"/>
+                        <outlet property="textView" destination="Gxd-1A-P6l" id="epc-Kt-gKf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="279"/>
+        </scene>
+    </scenes>
+</document>
